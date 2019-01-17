@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+_showUserFavorites_	front.py	/^def _showUserFavorites_(user_id):$/;"	f	language:Python
+_showUserFavorites_	front2.py	/^def _showUserFavorites_(user_id):$/;"	f	language:Python
+app	front.py	/^app = Flask(__name__)$/;"	v	language:Python
+app	front2.py	/^app = Flask(__name__)$/;"	v	language:Python
+base64Encoded	ingest_twitter.py	/^base64Encoded = (base64.standard_b64encode(toEncode.encode("utf-8"))).decode("utf-8")$/;"	v	language:Python
+bearerToken	ingest_twitter.py	/^bearerToken = obtainBearerToken(base64Encoded)$/;"	v	language:Python
+call	ingest_twitter.py	/^def call(bearerToken, userName, params={}):$/;"	f	language:Python
+callFavePosts	ingest_metafilter.py	/^def callFavePosts(uid, favType='comments', page=0):$/;"	f	language:Python
+callLoop	ingest_twitter.py	/^def callLoop(conn, bearerToken, offset, i):$/;"	f	language:Python
+colorize	front.py	/^def colorize(string, n):$/;"	f	language:Python
+colorize	front2.py	/^def colorize(string, n):$/;"	f	language:Python
+colorize	ingest_entities.py	/^def colorize(string, n):$/;"	f	language:Python
+colorize	ingest_twitter.py	/^def colorize(string, n):$/;"	f	language:Python
+conn	ingest_metafilter.py	/^conn = sqliteConnect()$/;"	v	language:Python
+conn	ingest_twitter.py	/^conn = sqliteConnect()$/;"	v	language:Python
+create_connection	create_sqlite.py	/^def create_connection(db_file):$/;"	f	language:Python
+curl	ingest_metafilter.py	/^def curl(url):$/;"	f	language:Python
+distributeTweet	ingest_twitter.py	/^def distributeTweet(conn, tweet):$/;"	f	language:Python
+downloadEntities	ingest_entities.py	/^def downloadEntities():$/;"	f	language:Python
+downloadEntity	ingest_entities.py	/^def downloadEntity(src):$/;"	f	language:Python
+execute_statement	create_sqlite.py	/^def execute_statement(conn, statement):$/;"	f	language:Python
+fave_tuples	ingest_metafilter.py	/^fave_tuples = {}$/;"	v	language:Python
+i	ingest_metafilter.py	/^    i = i + 1$/;"	v	language:Python
+i	ingest_metafilter.py	/^i = 0$/;"	v	language:Python
+i	ingest_twitter.py	/^i = 0$/;"	v	language:Python
+ingestCommentFavesLoop	ingest_metafilter.py	/^def ingestCommentFavesLoop(conn, page, fave_tuples):$/;"	f	language:Python
+listUsers	front.py	/^def listUsers():$/;"	f	language:Python
+listUsers	front2.py	/^def listUsers():$/;"	f	language:Python
+list_users	front.py	/^def list_users():$/;"	f	language:Python
+list_users	front2.py	/^def list_users():$/;"	f	language:Python
+main	create_sqlite.py	/^def main():$/;"	f	language:Python
+md5File	ingest_entities.py	/^def md5File(fname):$/;"	f	language:Python
+obtainBearerToken	ingest_twitter.py	/^def obtainBearerToken(base64Encoded):$/;"	f	language:Python
+offset	ingest_twitter.py	/^offset = 0$/;"	v	language:Python
+parseAndSaveComments	ingest_metafilter.py	/^def parseAndSaveComments(conn, postId, postHtml, comments):$/;"	f	language:Python
+parseAndSavePost	ingest_metafilter.py	/^def parseAndSavePost(conn, postId, postHtml):$/;"	f	language:Python
+parseFavePage	ingest_metafilter.py	/^def parseFavePage(conn, resp, fave_tuples):$/;"	f	language:Python
+populateCommentFaveDataLoop	ingest_metafilter.py	/^def populateCommentFaveDataLoop(conn, i, fave_tuples):$/;"	f	language:Python
+post_request	front.py	/^def post_request():$/;"	f	language:Python
+post_request	front2.py	/^def post_request():$/;"	f	language:Python
+pp	ingest_metafilter.py	/^pp = pprint.PrettyPrinter(indent=4)$/;"	v	language:Python
+pp	ingest_twitter.py	/^pp = pprint.PrettyPrinter(indent=4)$/;"	v	language:Python
+progress_msg	ingest_metafilter.py	/^def progress_msg(msg):$/;"	f	language:Python
+secrets	ingest_metafilter.py	/^        secrets = yaml.load(stream)$/;"	v	language:Python
+secrets	ingest_twitter.py	/^        secrets = yaml.load(stream)$/;"	v	language:Python
+send_static	front.py	/^def send_static(path):$/;"	f	language:Python
+send_static	front2.py	/^def send_static(path):$/;"	f	language:Python
+showMefiFavorites	front.py	/^def showMefiFavorites(user_id):$/;"	f	language:Python
+showMefiFavorites	front2.py	/^def showMefiFavorites(user_id):$/;"	f	language:Python
+showUserFavorites	front.py	/^def showUserFavorites(user_id, options):$/;"	f	language:Python
+showUserFavorites	front2.py	/^def showUserFavorites(user_id):$/;"	f	language:Python
+show_favorites	front.py	/^def show_favorites(user_id):$/;"	f	language:Python
+show_favorites	front2.py	/^def show_favorites(user_id):$/;"	f	language:Python
+show_search_favorites	front.py	/^def show_search_favorites(user_id, search_term):$/;"	f	language:Python
+show_todays_favorites	front.py	/^def show_todays_favorites(user_id):$/;"	f	language:Python
+sqliteConnect	front.py	/^def sqliteConnect():$/;"	f	language:Python
+sqliteConnect	front2.py	/^def sqliteConnect():$/;"	f	language:Python
+sqliteConnect	ingest_entities.py	/^def sqliteConnect():$/;"	f	language:Python
+sqliteConnect	ingest_metafilter.py	/^def sqliteConnect():$/;"	f	language:Python
+sqliteConnect	ingest_twitter.py	/^def sqliteConnect():$/;"	f	language:Python
+sqliteStatement	front.py	/^def sqliteStatement(conn, statement, variables):$/;"	f	language:Python
+sqliteStatement	front2.py	/^def sqliteStatement(conn, statement, variables):$/;"	f	language:Python
+sqliteStatement	ingest_entities.py	/^def sqliteStatement(conn, statement, variables):$/;"	f	language:Python
+sqliteStatement	ingest_metafilter.py	/^def sqliteStatement(conn, statement, variables=None):$/;"	f	language:Python
+sqliteStatement	ingest_twitter.py	/^def sqliteStatement(conn, statement, variables):$/;"	f	language:Python
+toEncode	ingest_twitter.py	/^toEncode = secrets['consumerKey'] + ':' + secrets['consumerSecret']$/;"	v	language:Python
