@@ -1,21 +1,24 @@
 <html>
+<div class='parcel' hidden>
+	<audio controls></audio>
+	<div class='audio_file_name'></div>
+	<textarea class='audio_textarea'></textarea>
+</div>
+<textarea id='fulltext'></textarea>
+
 <div id="top">
 	<form enctype="multipart/form-data">
 		<input type="file" name="media" title="Select audio file"/>
 	</form>
 </div>
-<div>
-	<audio controls></audio>
-	<textarea id='textarea1'></textarea>
-</div>
-<textarea hidden id='fulltext'></textarea>
+<div id="bottom"></div>
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src={{ url_for("static", filename="scripts/control.js") }}></script>
 <style>
 	div {
 		width:100%;
-		overflow:scroll;
+		/*overflow:scroll;*/
 	}
 	#top {
 		float:top;
