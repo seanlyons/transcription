@@ -1,8 +1,11 @@
 <html>
 <div class='parcel' hidden>
 	<audio controls></audio>
-	<div class='audio_file_name'></div>
-	<textarea class='audio_textarea'></textarea>
+	<div class='img_div'>
+		<img/>
+	</div>
+	<div class='file_name'></div>
+	<textarea class='file_textarea'></textarea>
 </div>
 <div id="top">
 	<form enctype="multipart/form-data">
@@ -22,6 +25,13 @@
 		float:top;
 	}
 	textarea {
-		width:80%;
+		width:100%;
+	}
+	.img_div {
+		max-height:300px;
+		overflow-y:auto;
+	}
+	img {
+		object-fit: cover;
 	}
 </style>
